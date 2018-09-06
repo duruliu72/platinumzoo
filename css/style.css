@@ -1,0 +1,1455 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.spacebtween {
+    height: 70px;
+    clear: both;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ptb {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.active {
+    color: red !important;
+}
+
+
+/*Nav section start from here*/
+
+.nv_bg_pic {}
+
+.nv_container {
+    width: 100%;
+    margin: 0px auto;
+    z-index: 99999;
+    background: #000;
+    height: 120px;
+}
+
+#navid {
+    position: static;
+}
+
+.inner_menu {
+    width: calc(100% - 15px);
+    margin: 0px auto;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+@media(min-width:768px) {
+    .inner_menu {
+        width: 750px;
+        margin-left: calc((100% - 750px)/2 + 15px);
+    }
+}
+
+@media (min-width: 992px) {
+    .inner_menu {
+        width: 970px;
+        margin-left: calc((100% - 970px)/2 + 15px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .inner_menu {
+        width: 1170px;
+        margin-left: calc((100% - 1170px)/2 + 15px);
+    }
+}
+
+
+/*Nav section end here*/
+
+
+/*Main slider Section Start*/
+
+.hs_bg_pic {}
+
+.hs_bg_color {}
+
+.silder_container {}
+
+#main-slider .item img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+@media (min-width: 768px) {
+    #main-slider .item img {
+        height: 700px;
+    }
+}
+
+
+/*Main slider Section End*/
+
+
+/*PLATINUM GYM OFFERING Section start*/
+
+.pgoy_bg_pic {}
+
+.pgoy_bg_color {}
+
+.pgoy_container {}
+
+.pgoy_heading {}
+
+.pgoy_heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #E84B44;
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+}
+
+.pgoy_content {}
+
+.pgoy_content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.pgoy_item {
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.pgoy_item:last-child {
+    margin-bottom: 0px;
+}
+
+.pgoy_item:last-child {
+    padding-right: 0px;
+}
+
+.pgoy_item img {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pgoy_item .txt {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pgoy_item .txt h2 {
+    font-size: 28px;
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+}
+
+.pgoy_item .txt p {
+    line-height: 1.2em;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .pgoy_heading h1 {
+        font-size: 49px;
+    }
+    .pgoy_item {
+        width: 33.33%;
+        float: left;
+        padding-right: 15px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+    .pgoy_item:last-child {
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pgoy_container {}
+    .pgoy_heading {}
+    .pgoy_content {}
+    .pgoy_item {
+        width: 33.33%;
+        float: left;
+        padding-right: 15px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+    .pgoy_item:last-child {
+        padding-right: 0px;
+    }
+}
+
+
+/*PLATINUM GYM OFFERING Section End*/
+
+
+/*Bird Reserch section start*/
+
+.br_bg_pic {}
+
+.br_bg_color {}
+
+.br_container {}
+
+.br_container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.br_container .br_left {
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.br_container .br_left h1 {
+    text-align: center;
+    color: #E84B44;
+    margin-bottom: 25px;
+}
+
+.br_container .br_left p {}
+
+a.readMore {
+    text-decoration: none;
+    color: #000;
+    border-radius: 7px;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    width: 128px;
+    background: #E84B44;
+    padding: 5px 18px;
+    float: right;
+}
+
+a.readMore:hover {
+    background: #bbb;
+    color: #000;
+}
+
+.br_container .br_right {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.br_container .br_right h1 {
+    text-align: center;
+    color: #E84B44;
+    margin-bottom: 25px;
+}
+
+.br_container .br_right img {
+    width: 100%;
+    min-height: 250px;
+}
+
+@media (min-width: 992px) {
+    .br_container .br_left {
+        width: 50%;
+        float: left;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .br_container .br_right {
+        width: 50%;
+        float: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-top: 0px;
+    }
+}
+
+
+/*Bird Reserch section End*/
+
+
+/*PAPER CUTTING GALLERY Start*/
+
+.pcg_bg_pic {}
+
+.pcg_bg_color {}
+
+.pcg_bg_container {}
+
+.pcg_heading {
+    margin-bottom: 100px;
+}
+
+.pcg_heading h1 {
+    text-align: center;
+    color: #E84B44;
+    font-family: 'Bungee', cursive;
+    font-size: 49px;
+}
+
+.pcg_content {}
+
+.pcg_item {
+    overflow: hidden;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.pcg_effect {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    transition: .5s ease;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.pcg_effect .fa-search {
+    color: #fff;
+    background: #000;
+}
+
+
+}
+.pcg_content .pcg_item:last-child {
+    margin-right: 0px;
+}
+.pcg_content .pcg_item img {
+    width: 100%;
+    height: 200px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.pcg_item:hover .pcg_effect {
+    opacity: 0.7;
+    display: flex;
+    background: #000;
+    justify-content: center;
+    align-items: center;
+}
+.pcg_item:hover img {
+    transform: scale(1.1);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    padding-top: 25px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    z-index: 99999;
+}
+.item1 {
+    display: none;
+}
+.item1 img {
+    height: 570px;
+    width: 100%;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 40px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    text-decoration: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+@media (min-width: 532px) {
+    .pcg_content .pcg_item {
+        width: calc(50% - 15px);
+        float: left;
+        box-sizing: border-box;
+        margin-right: 15px;
+    }
+}
+@media (min-width: 768px) {
+    .pcg_content .pcg_item {
+        width: calc(33.33% - 15px);
+    }
+}
+@media (min-width: 992px) {
+    .pcg_content .pcg_item {
+        width: calc(20% - 15px);
+    }
+}
+
+/*PAPER CUTTING GALLERY End*/
+
+/*CHOOSE YOUR PACKAGE Start*/
+.cyp_bg_pic {}
+.cyp_bg_color {}
+.cyp_container {}
+.cyp_heading {}
+.cyp_heading h1 {
+    text-align: center;
+    color: #E84B44;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+}
+.cyp_content {}
+.cyp_content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.cyp_content .cyp_item {
+    width: 230px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.cyp_content .cyp_item:last-child {
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+.cyp_content .cyp_item a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.cyp_content .cyp_item a img {
+    width: 230px;
+}
+.cyp_content .cyp_item a p.month {
+    font-weight: 700;
+    text-align: center;
+}
+.cyp_content .cyp_item a p span.taka {
+    color: #E84B44;
+}
+@media (min-width: 570px) {
+    .cyp_content .cyp_item {
+        width: 250px;
+        margin-right: 46px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    
+    .cyp_content .cyp_item:nth-child(2) {
+        float: right;
+        margin-right: 0px;
+    }
+    
+    .cyp_content .cyp_item:last-child {
+        margin-right: 0px;
+        float: right;
+    }
+}
+@media (min-width: 768px) {
+    .cyp_heading h1 {
+        font-size: 49px;
+    }
+}
+@media (min-width: 992px) {
+    .cyp_content .cyp_item {
+        width: calc(( 25% - 46px) + 11.5px);
+    }
+    
+    .cyp_content .cyp_item:nth-child(2) {
+        float: left;
+        margin-right: 46px;
+    }
+    
+    .cyp_content .cyp_item:last-child {
+        margin-right: 0px;
+        float: left;
+    }
+}
+
+/*CHOOSE YOUR PACKAGE End*/
+
+/*PLATINUM ZOO GALLERY Section start*/
+.pzg_bg_pic {}
+.pzg_bg_color {}
+.pzg_bg_color {}
+.pzg_container {}
+.pzg_heading {}
+.pzg_heading h1 {
+    text-align: center;
+    color: #E84B44;
+    font-family: 'Bungee', cursive;
+    font-size: 49px;
+}
+#owl-pzg_slider .item img {
+    height: 250px;
+}
+@media (min-width: 768px) {
+    #owl-pzg_slider .item img {
+        height: 550px;
+    }
+}
+
+/*PLATINUM ZOO GALLERY Section End*/
+
+/*PLATINUM GYM VIDEO GALLERY Start*/
+.pzvg_bg_pic {
+    overflow: hidden;
+}
+.pzvg_bg_color {}
+.pzvg_container {}
+.pzvg_heading {}
+.pzvg_heading h1 {
+    text-align: center;
+    color: #E84B44;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+}
+.pzvg_slider {}
+#owl-pzvg_slider {}
+#owl-pzvg_slider .item iframe {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+@media (min-width: 768px) {
+    .pzvg_heading h1 {
+        font-size: 49px;
+    }
+    
+    #owl-pzvg_slider .item iframe {
+        height: 500px;
+    }
+    
+    .pzvg_heading h1 {
+        font-size: 49px;
+    }
+}
+
+/*PLATINUM GYM VIDEO GALLERY END*/
+
+/*Platinum zoo counter section start*/
+.pztimer_bg_pic {}
+.pztimer_bg_color {}
+.pztimer_container {}
+.pztimer_container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.pztimer_item {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.pztimer_item:last-child {
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+.pztimer_counter {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pztimer_counter span {
+    font-size: 3em;
+    font-weight: bold;
+    color: #DE4039;
+    font-family: 'Bungee', cursive;
+}
+.pztimer_content {}
+.pztimer_content h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+}
+.pztimer_content p {}
+@media (min-width: 768px) {
+    .pztimer_counter span {
+        font-size: 5em;
+    }
+    
+    .pztimer_content h1 {
+        font-size: 49px;
+    }
+}
+@media (min-width: 992px) {
+    .pztimer_item {
+        width: 33.33%;
+        float: left;
+        padding-right: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+/*Platinum zoo counter section End*/
+
+/* Platinum zoo YOGA section start*/
+.yoga_bg_pic {}
+.yoga_bg_color {}
+.yoga_container {
+    padding-top: 1px;
+}
+.yoga_container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.yoga_item {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.yoga_inner_item_img {
+    width: 280px;
+    margin: auto;
+}
+.margin_top {
+    margin-top: 50px;
+}
+.yoga_item img {
+    width: 100%;
+    text-align: center;
+}
+.yoga_inner_item {
+    width: 354px;
+    margin-bottom: 50px;
+}
+.yoga_inner_item:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.margin_right {
+    margin-right: 10px;
+}
+.yoga_design {
+    float: left;
+    width: 84px;
+}
+.txt_align {
+    text-align: right;
+}
+.yoga_icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #E84B44;
+    position: relative;
+}
+.yoga_icon:before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    display: block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+}
+.yoga_icon:after {
+    content: "\2714";
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+.yoga_txt {
+    float: left;
+    width: 180px;
+}
+.inner_yoga_txt {}
+.inner_yoga_txt h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+}
+@media (min-width: 768px) {
+    .yoga_item {
+        width: 33.33%;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .yoga_inner_item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .yoga_txt {
+        width: 243px;
+    }
+    
+    .margin_right {
+        margin-right: 10px;
+    }
+    
+    .margin_top {
+        margin-top: 100px;
+    }
+}
+@media (min-width: 992px) {
+    .yoga_item {
+        width: 33.33%;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .yoga_inner_item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .yoga_txt {
+        width: 243px;
+    }
+    
+    .margin_top {
+        margin-top: 200px;
+    }
+}
+
+/* Platinum zoo YOGA section End*/
+
+/*BOARD OF DIRECTORS SECTION START*/
+.bod_bg_pic {}
+.bod_bg_color {}
+.bod_container {}
+.bod_heading {}
+.bod_heading h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+    color: #E84B44;
+}
+.bod_content {
+    padding: 30px 0px;
+    box-sizing: border-box;
+}
+.bod_content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.bod_item {
+    margin-bottom: 60px;
+}
+.bod_item:last-child {
+    margin-bottom: 0px;
+}
+.bod_img {
+    text-align: center;
+    padding: 0px 25px;
+    box-sizing: border-box;
+}
+.bod_img img {
+    width: 100%;
+}
+.bod_descrip {
+    text-align: center;
+    margin-top: 25px;
+    padding: 0px 10px;
+}
+.bod_descrip h2 {
+    margin-bottom: 15px;
+}
+.bod_descrip h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.bod_descrip p {
+    font-family: 'Bungee', cursive;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.social_media {
+    text-align: center;
+}
+.fa {
+    color: #fff;
+    width: 35px;
+    padding: 7px 0px;
+    border-radius: 5px;
+    background: #E84B44
+}
+.fa-twitter-square {}
+.fa-facebook-square {}
+.fa-pinterest-square {}
+@media (min-width:768px) {
+    .bod_item {
+        width: 50%;
+        float: left;
+        margin-bottom: 0px;
+    }
+    
+    .bod_descrip h1 {
+        font-family: 'Bungee', cursive;
+        font-size: 25px;
+    }
+}
+
+/*BOARD OF DIRECTORS SECTION END*/
+
+/*EXPERT TRAINERS  START*/
+.et_bg_pic {}
+.et_bg_color {}
+.et_container {}
+.et_heading {}
+.et_heading h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+    color: #E84B44;
+}
+.et_content {}
+.et_content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.et_item1 {
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+.et_item1:last-child {
+    margin-bottom: 0px;
+    padding-right: 0px;
+}
+.et_item2 {
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+.et_item2:last-child {
+    margin-bottom: 0px;
+    padding-right: 0px;
+}
+.et_img {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.et_img img {
+    width: 100%;
+}
+.et_descrip {}
+.et_descrip h2 {
+    font-family: 'Bungee', cursive;
+    font-size: 15px;
+    color: #E84B44;
+}
+.et_descrip h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+}
+.et_descrip p {
+    margin-bottom: 15px;
+}
+@media (min-width:768px) {
+    .et_heading h1 {
+        font-size: 49px;
+    }
+    
+    .et_item2 {
+        width: 33.33%;
+        float: left;
+        margin-bottom: 0px;
+        padding-right: 15px;
+    }
+    
+    .et_item1 {
+        width: 25%;
+        float: left;
+        margin-bottom: 0px;
+        padding-right: 15px;
+    }
+}
+
+/*EXPERT TRAINERS  END*/
+
+/* CHECK OUT OUR SCHEDULE START*/
+.cos_bg_pic {}
+.cos_bg_color {}
+.cos_container {}
+.cos_heading {}
+.cos_heading h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+    color: #E84B44;
+    text-align: center;
+}
+.cos_content {}
+.cos_content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.cos_item {}
+.time_table {
+    width: 100%;
+    margin: 0px auto;
+    border-collapse: collapse;
+    background: #F3F3F3;
+    display: none;
+}
+.time_table th {
+    font-family: 'Bungee', cursive;
+    font-size: 17px;
+}
+.time_table,
+.time_table th,
+.time_table td {
+    border: 1px solid #000;
+}
+.time_table th {
+    padding: 25px 0px;
+    width: 12.5%;
+    font-weight: bold;
+}
+.time_table td {
+    text-align: center;
+    padding: 60px 0px;
+    color: #E84B44;
+}
+.responsive_table {
+    width: 100%;
+}
+.responsive_table th {
+    text-align: left;
+    font-family: 'Bungee', cursive;
+    margin-bottom: 45;
+}
+.responsive_table td {
+    text-align: right;
+    border-bottom: 1px dashed #000;
+    padding: 10px 0px;
+}
+.responsive_table td.left {
+    text-align: left;
+}
+@media (min-width:768px) {
+    .responsive_table {
+        display: none;
+    }
+    
+    .time_table {
+        display: table;
+    }
+    
+    .time_table th {
+        font-size: 17px;
+    }
+    
+    .cos_heading h1 {
+        font-size: 49px;
+    }
+}
+@media (min-width:992px) {
+    .time_table th {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+/* CHECK OUT OUR SCHEDULE END*/
+
+/*PLATINUM GYM’S GALLERY START*/
+.pgg_bg_pic {}
+.pgg_bg_color {}
+.pgg_container {}
+.pgg_heading {}
+.pgg_heading h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+    color: #E84B44;
+}
+.pgg_content {}
+.pgg_content:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.pgg_item {
+    float: left;
+    padding: 1px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pgg_item img {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+.item2 {
+    display: none;
+}
+.item2 img {
+    height: 560px;
+    width: 100%;
+}
+.modal1 {
+    display: none;
+    position: fixed;
+    padding-top: 25px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    z-index: 999990;
+}
+@media (min-width:400px) {
+    .pgg_item {
+        float: left;
+        width: calc(50% - 15px);
+        box-sizing: border-box;
+        margin-right: 15px;
+    }
+    
+    .pgg_item:last-child {
+        margin-right: 0px;
+    }
+}
+@media (min-width:768px) {
+    .pgg_item {
+        width: calc(33.33% - 15px);
+    }
+    
+    .pgg_heading h1 {
+        font-size: 49px;
+    }
+}
+@media (min-width:992px) {
+    .pgg_item {
+        width: calc(20% - 15px);
+    }
+}
+
+/*PLATINUM GYM’S GALLERY END*/
+
+/*WHAT THEY SAID ABOUT US START*/
+.sau_bg_pic {}
+.sau_bg_color {}
+.sau_container {}
+.sau_heading {}
+.sau_heading h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 49px;
+    color: #E84B44;
+}
+.sau_content {}
+#client-say .item {
+    background: #181818;
+    padding: 1px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+.testimonial_image_holder {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+.testimonial_image_holder img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+.testimonial_title_holder {
+    margin-top: 35px;
+}
+.testimonial_title_holder h5 {}
+.testimonial_rating_holder {
+    margin-top: 35px;
+}
+.testimonial_star_holder {}
+.icon_star {}
+.testimonial_text_holder {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.testimonial_text_holder p {
+    margin-top: 10px;
+}
+
+/*WHAT THEY SAID ABOUT US END*/
+
+/* CHOOSE YOUR MONTHLY PLAN START*/
+.cymp_bg_pic {}
+.cymp_bg_color {}
+.cymp_container {}
+.cymp_heading {}
+.cymp_heading h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+    color: #E84B44;
+}
+.cymp_content {}
+.cymp_table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+}
+.cymp_table th {
+    border-bottom: 1px dashed #000;
+    padding: 25px 0px;
+    border-right: 1px solid #000;
+}
+.cymp_table td {
+    color: #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px dashed #000;
+    text-align: center;
+    padding: 35px 0px;
+}
+.cymp_table tr:first-child {
+    background: #F8BDC5 !important;
+}
+.cymp_table tr:nth-child(2n+1) {
+    background: #F3F3F3;
+}
+.cymp_table td.left1,
+th.left1 {
+    text-align: left;
+}
+.cymp_table tr td a {
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    font-size: 13px;
+}
+.cymp_table tr th:first-child,
+.cymp_table tr td:first-child {
+    display: none;
+}
+@media (min-width:768px) {
+    .cymp_heading h1 {
+        font-size: 49px;
+    }
+    
+    .cymp_table tr th:first-child,
+    .cymp_table tr td:first-child {
+        display: table-cell;
+    }
+}
+
+/* CHOOSE YOUR MONTHLY PLAN END*/
+
+/*VISIT PLATINUM MINI ZOO ANYTIME START*/
+.vpmz_bg_pic {}
+.vpmz_bg_color {
+    background: #DE4039;
+    padding: 1px;
+}
+.vpmz_container {
+    padding: 32px 0px;
+}
+.vpmz_container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.vpmz_txt {}
+.vpmz_txt h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+    line-height: 76px;
+}
+.vpmz_phone {
+    text-align: center;
+}
+.vpmz_inner_phone {
+    width: 80%;
+    margin: 0px auto;
+    background: #fff;
+    color#000;
+    padding: 15px 0px;
+    margin-top: 31px;
+}
+.vpmz_phone span {
+    font-weight: bold;
+}
+@media(min-width:768px) {
+    .vpmz_txt {
+        width: 70%;
+        float: left;
+    }
+    
+    .vpmz_phone {
+        width: 30%;
+        float: left;
+        text-align: center;
+    }
+}
+
+/*VISIT PLATINUM MINI ZOO ANYTIME END*/
+
+/*CONTACT US NOW START */
+.cun_bg_pic {}
+.cus_bg_color {
+    background: #000;
+    box-sizing: border-box;
+}
+.cus_container {}
+.cun_heading {}
+.cun_heading h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Bungee', cursive;
+}
+.cun_content {}
+.cun_content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.con_map {
+    text-align: center;
+}
+.con_map iframe {
+    width: 100%;
+    height: 500px;
+    vertical-align: middle;
+}
+.con_txt {
+    background: #fff;
+    height: 350px;
+}
+.con_txt address p {
+    padding-top: 38px;
+    margin-top: 30px;
+    line-height: 1.7em;
+    text-align: center;
+}
+@media (min-width:768px) {
+    .con_map {
+        width: 65%;
+        float: left;
+    }
+    
+    .con_txt {
+        width: 35%;
+        float: left;
+        height: 500px;
+    }
+    
+    .con_txt address p {
+        margin-top: 102px;
+        padding-top: 0px;
+    }
+}
+
+/*CONTACT US NOW START END*/
+
+/*FOOTER SECTION START*/
+.footer_bg_pic {}
+.footer_bg_color {
+    background: #181818;
+    padding: 50px 0px;
+}
+.footer_container {}
+.footer_container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer_left {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer_left p {
+    color: #FFFFFF;
+    font-family: 'Bungee', cursive;
+}
+.footer_middle {
+    margin-bottom: 25px;
+}
+.f_social_media {
+    text-align: center;
+}
+.f_social_media .fa-twitter {}
+.f_social_media .fa-facebook {}
+.f_social_media .fa-pinterest {}
+.footer_right {
+    text-align: center;
+}
+.footer_right p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+.footer_right p a {
+    color: #DE4039;
+    text-decoration: none;
+}
+@media(min-width:768px) {
+    .footer_left {
+        float: left;
+        width: 30%;
+    }
+    
+    .footer_middle {
+        float: left;
+        width: 20%;
+    }
+    
+    .footer_right {
+        float: right;
+        width: 50%;
+    }
+    
+    .footer_right p {
+        text-align: right;
+    }
+}
+
+/*FOOTER SECTION END*/
+
+/*About: ;*/
+.about_bg_pic {}
+.about_bg_color {}
+.about_container {}
+.about_heading {}
+.about_heading h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 49px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about_content {}
+.about_content p.p1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+    line-height: 42px;
+}
+.about_content h4 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Bungee', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.about_content .name {
+    text-align: center
+}
+.about_content p {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    line-height: 25px;
+}
+.about_content .image {
+    width: 200px;
+    margin: 0px auto;
+}
+.about_content .image img {
+    width: 100%;
+}

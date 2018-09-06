@@ -1,0 +1,72 @@
+.inner_menu .navbar-default {
+    background-color: #000;
+    border-color: #000;
+    z-index: 9999999999;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-default .navbar-brand {
+    margin-top: -8px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    margin-top: 33px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Bungee', cursive;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 14px;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 43px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff !important;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: 'Bungee', cursive;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #fff !important;
+    background-color: transparent;
+}
+@media (min-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff !important;
+    background-color: #000;
+    font-size: 17px;
+    font-family: 'Bungee', cursive;
+}
+   .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #fff !important;
+    background-color: #000;
+}     
+
+}
